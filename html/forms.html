@@ -11,7 +11,7 @@
     -->
     <form action="login.html" method="get" >
         <!-- here we are creating a table for login <form -->
-        <table>
+        <table >
             <!-- always start a table then tr then td then label then again create 1 td for inputs  -->
            <tr id="UserName">
             <td><label for="Username"id="UserName">UserName</label></td>
@@ -30,66 +30,50 @@
            <tr id="password">
             <td><label for="password">password</label></td>
             <td id="password"><input type="password" id="password" name="password" placeholder="Enter password">
-            <td id="button"><button type="submit" id="button">Submit</button></td>
+          <button type="submit" id="button">Submit</button></td>
             <td><button type="reset">reset</button></td>
            </tr>
-
+        </tr>
+            <td id="contact">contact<label for="contact">
+              </label></td>
             <td><input type="tel"></td>
            </tr>
-           <tr id="gender">
-            <td id="gender">gender</td>
+           <tr id="gender" >
+            <td id ="gender">gender</td>
             <td>
                 <input type="radio" name="gender"> male
                <input type="radio" name="gender">  female
                  <input type="radio" name="gender">other
-            </td>
+                      </td>
            </tr>
-           <tr id="checkbox">
-            <td id="checkbox">subject</td>
+
+         <tr id="checkbox">
+            <td >subject</td>
            <td id="checkbox" >
             <input type="checkbox" name="math" id="checkbox">math
             <input type="checkbox" name="eng" id="checkbox">eng
             <input type="checkbox" name="hindi" id="checkbox">hindi
-           </td>
+                      </td>
         </tr>
 
           
           
            <tr id = week>
             <td>week</td>
-            <td>
-              <input type="week">
-            </td>
-
+            <td><input type="week"></td>
            </tr>          
-           <tr id="hidden">
-          <td>hidden</td>
-          <td><input type="hidden" id="hidden"></td>
-          </tr>
-
-           <tr id = week>
-            <td>week</td>
-            <td>
-              <input type="week">
-            </td>
-
-           </tr>          
-           <tr id="hidden">
-          <td>hidden</td>
-          <td><input type="hidden" id="hidden"></td>
-          </tr>
-          
-          
+                 
           <tr id="search">
             <td>search</td>
             <td><input type="search"></td>
           </tr>
-      
-          <tr id="search">
-            <td><input type="search"> <br></td>
-            </tr>
-         
-        </table>
+
+         <tr id="hidden">
+          <td>hidden</td>
+          <td><input type="hidden" id="hidden"></td>
+          </tr>
+
+         </table>
     </form>
     
 </body>
