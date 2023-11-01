@@ -13,32 +13,32 @@
         <!-- here we are creating a table for login <form -->
         <table>
             <!-- always start a table then tr then td then label then again create 1 td for inputs  -->
-           <tr>
-            <td><label for="Username">UserName</label></td>
-            <td><input type="text" id="UserName" name="UserName" placeholder="Enter UserName"></td>
+           <tr id="UserName">
+            <td><label for="Username"id="UserName">UserName</label></td>
+            <td><input type="text" id="Username" name="UserName" id="UserName" placeholder="Enter UserName"></td>
            </tr>
            <!-- here another td is created for the age via using all the functional entites -->
-           <tr>
+           <tr id="age">
             <td><label for="Age">Age</label></td>
             <td><input type="number" 
                 name="Age" id="Age" placeholder="Enter Age"></td>
            </tr>
-           <tr>
+           <tr id="Email">
             <td><label for="Email">Email</label></td>
             <td><input type="email" id="Email" name="Email" placeholder="Enter Email"></td>
            </tr>
-           <tr>
+           <tr id="password">
             <td><label for="password">password</label></td>
-            <td><input type="password" id="password" name="password" placeholder="Enter password"></td>
+            <td id="password"><input type="password" id="password" name="password" placeholder="Enter password">
             <td id="button"><button type="submit" id="button">Submit</button></td>
             <td><button type="reset">reset</button></td>
            </tr>
-           <tr>
+           <tr id="contact">
             <td><label for="contact us"></label></td>
 
             <td><input type="tel"></td>
            </tr>
-           <tr>
+           <tr id="gender">
             <td>gender</td>
             <td>
                 <input type="radio" name="gender"> male
@@ -46,38 +46,39 @@
                  <input type="radio" name="gender">other
             </td>
            </tr>
-           <tr>
-            <td id="subject">subject</td>
-           <td>
-            <input type="checkbox" name="math" id="subject">math
-            <input type="checkbox" name="eng" id="subject">eng
-            <input type="checkbox" name="hindi" id="subject">hindi
+           <tr id="checkbox">
+            <td id="checkbox">subject</td>
+           <td id="checkbox" >
+            <input type="checkbox" name="math" id="checkbox">math
+            <input type="checkbox" name="eng" id="checkbox">eng
+            <input type="checkbox" name="hindi" id="checkbox">hindi
            </td>
         </tr>
+
            <tr id="date">
-            <td>date Time</td>            <td><input type="date">
+            <td>date</td>
+                <td><input type="date">
                <input type="time"> <input type="datetime-local"><input type="month">
-               <p><marks>Scroll up for year </marks> </p>
             </td>
-           </tr>
-           <tr>
-            <td>Color</td>
+                        <td>date</td>zzz           </tr>
+          
+           <tr id = week>
+            <td>week</td>
             <td>
-                <input type="color">
+              <input type="week">
             </td>
-           </tr>
+
+           </tr>          
            <tr id="hidden">
           <td>hidden</td>
           <td><input type="hidden" id="hidden"></td>
           </tr>
           
-           <tr>
-           <tr>
-            <td>date Time</td>
-            <td><input type="date"><input type="time"> <input type="datetime-local"></td>
-           </tr>
-           <tr></tr>
-           
+          <tr id="search">
+            <td>search</td>
+            <td><input type="search"></td>
+          </tr>
+         
         </table>
     </form>
     
