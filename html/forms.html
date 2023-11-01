@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- for creatimg form , action = the page we want to show after the process
+    1.method is attribut where we can use post for server either get for getting but get is little bit risky because it shows the information in url
+    -->
+    <form action="login.html" method="post" >
+        <!-- here we are creating a table for login <form -->
+        <table>
+            <!-- always start a table then tr then td then label then again create 1 td for inputs  -->
+           <tr>
+            <td><label for="Username">UserName</label></td>
+            <td><input type="text" id="UserName" name="UserName" placeholder="Enter UserName"></td>
+           </tr>
+           <!-- here another td is created for the age via using all the functional entites -->
+           <tr>
+            <td><label for="Age">Age</label></td>
+            <td><input type="number" 
+                name="Age" id="Age" placeholder="Enter Age"></td>
+           </tr>
+           <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="email" id="Email" name="Email" placeholder="Enter Email"></td>
+           </tr>
+           <tr>
+            <td><label for="password">password</label></td>
+            <td><input type="password" id="password" name="password" placeholder="Enter password"></td>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">reset</button></td>
+           </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
