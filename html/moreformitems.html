@@ -8,94 +8,103 @@
 <body>
     <main><h1>what we can do more with the sign up pages</h1></main>
     <form action="">
+ <fieldset>
+    <legend>form html tag forms</legend>
     <table>
-    <tr>
-        <td><label for="UserName">Username</label></td>
-        <td><input type="text" id="UserName" name="UserName"
-            placeholder="enter your username "></td>
-    </tr>
-    <tr>
-        <td><label for="Gender">Gender</label></td>
-        <!-- type = radio for creating a tick box
-        if we have to choose one option for that then we can give them the same name with in it -->
-        <td>
-            <!-- if name is same then we can choose them only one then they link together then we can only circle the one type in it -->
-          <input type="radio" name="Gender">  Male
-          <!-- in radio type we give them many option but we can choose any one in it thats why we are using type radio -->
-          <input type="radio" name="Gender">  Female 
-          <input type="radio" name="Gender">  Others 
-            
-        </td>
-    </tr>
-    <tr>
-        <td><label for="Subject">Subjects</label></td>
-        <td>
-            <!-- input-type=checkbox in check box we can use multiple checking  in it thats why we are checkbox not an radio type -->
-            <input type="checkbox">math
-            <input type="checkbox">biology
-            <input type="checkbox">physics
-        </td>
-    </tr>
-    <tr>
-        <td><label for="date-time">Birthdate with time:</label></td>
-        <td><input type="datetime-local" id="date" name="date-time">
-        <input type="month" name="month" id="date">
-        <input type="week">
-        </td>
-    </tr>
-    <tr>
-        <td><label for="color">color</label></td>
-        <td><input type="color"></td>
-    </tr>
-    <tr>
-        <td><label for="City">City</label></td>
-        <!-- we use the select tag  for selecting any particular option with in it 
-        jaise humko pa-->
-        <td> <select name="" id="">
-            <!-- jo msg hum box ke andar show krna ho to option value krke kr skte hai uske andar likhenge to print as it is hoga  -->
-            <option value="">Choose where you belong adjectly</option>
-            <!-- first we have to create a group for creating a group we can add optgroup first 
-                ---------------------------------
-            opt group label ka matlab hai ki humkon jaise patna ke andar ka jagah ka naam sara patna ke andar aayega -->
-            <optgroup label="Patna" name="City">
-                <!-- opt group ke andar ka jo v label kiyee hai uske andar ka jgh sb ho 
-                to iske andar hum opt value daalenge ki uske andar accuretly hum kaise add kr skte hai 
-                isme jo v add krenge hum wo sab patna ke andar hi aayega  -->
-                <option value="Boring road">Boring Road</option>
-                <!-- value dene ka mtlb ye hai ki usi name ya usi value se meri data sent hogi -->
-                <option value="Rajabajar">Rajabajar</option>
-                <option value="Jagdevpath">Jagdevpath</option>
-
-            </optgroup>
-            <optgroup label="Chapra">
-                <option value="Gandhi chauk">gandhi chauk</option>
-                <option value="bhikhna pahari">Bhikhna pahari</option>
-                <option value="chapriya jgh">chapriya jgh</option>
-
-            </optgroup>
-        </select></td>
-    </tr>
-    <!-- for adding comment type box  we choose text area tag for creating a comment type box -->
-         <tr>
-        <td>Comment</td>
-        <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
-    </tr>
-    <!-- for creating a progress bar we use the progress tags in it with ther perspective values -->
-    <tr>
-        <td>Progress</td>
-        <td><progress min ="o" max="100" value="90"></progress></td>
-    </tr>
-    <!-- range  -->
-    <tr>
-        <td>Range</td>
-        <td><input type="range"></td>
-    </tr>
-    <!-- file upload -->
-    <tr>
-        <td>file upload</td>
-        <td><input type="file"></td>
-    </tr>
+        <tr>
+            <td><label for="UserName">Username</label></td>
+            <td><input type="text" id="UserName" name="UserName"
+                placeholder="enter your username "></td>
+        </tr>
+        <tr>
+            <td><label for="Gender">Gender</label></td>
+            <!-- type = radio for creating a tick box
+            if we have to choose one option for that then we can give them the same name with in it -->
+            <td>
+                <!-- if name is same then we can choose them only one then they link together then we can only circle the one type in it -->
+              <input type="radio" name="Gender">  Male
+              <!-- in radio type we give them many option but we can choose any one in it thats why we are using type radio -->
+              <input type="radio" name="Gender">  Female 
+              <input type="radio" name="Gender">  Others 
+                
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Subject">Subjects</label></td>
+            <td>
+                <!-- input-type=checkbox in check box we can use multiple checking  in it thats why we are checkbox not an radio type -->
+                <input type="checkbox">math
+                <input type="checkbox">biology
+                <input type="checkbox">physics
+            </td>
+        </tr>
+        <tr>
+            <td><label for="date-time">Birthdate with time:</label></td>
+            <td><input type="datetime-local" id="date" name="date-time">
+            <input type="month" name="month" id="date">
+            <input type="week">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="color">color</label></td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td><label for="City">City</label></td>
+            <!-- we use the select tag  for selecting any particular option with in it 
+            jaise humko pa-->
+            <td> <select name="" id="">
+                <!-- jo msg hum box ke andar show krna ho to option value krke kr skte hai uske andar likhenge to print as it is hoga  -->
+                <option value="">Choose where you belong adjectly</option>
+                <!-- first we have to create a group for creating a group we can add optgroup first 
+                    ---------------------------------
+                opt group label ka matlab hai ki humkon jaise patna ke andar ka jagah ka naam sara patna ke andar aayega -->
+                <optgroup label="Patna" name="City">
+                    <!-- opt group ke andar ka jo v label kiyee hai uske andar ka jgh sb ho 
+                    to iske andar hum opt value daalenge ki uske andar accuretly hum kaise add kr skte hai 
+                    isme jo v add krenge hum wo sab patna ke andar hi aayega  -->
+                    <option value="Boring road">Boring Road</option>
+                    <!-- value dene ka mtlb ye hai ki usi name ya usi value se meri data sent hogi -->
+                    <option value="Rajabajar">Rajabajar</option>
+                    <option value="Jagdevpath">Jagdevpath</option>
+    
+                </optgroup>
+                <optgroup label="Chapra">
+                    <option value="Gandhi chauk">gandhi chauk</option>
+                    <option value="bhikhna pahari">Bhikhna pahari</option>
+                    <option value="chapriya jgh">chapriya jgh</option>
+    
+                </optgroup>
+            </select></td>
+        </tr>
+        <!-- for adding comment type box  we choose text area tag for creating a comment type box -->
+             <tr>
+            <td>Comment</td>
+            <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
+        </tr>
+        <!-- for creating a progress bar we use the progress tags in it with ther perspective values -->
+        <tr>
+            <td>Progress</td>
+            <td><progress min ="o" max="100" value="90"></progress></td>
+        </tr>
+        <!-- range  -->
+        <tr>
+            <td>Range</td>
+            <td><input type="range"></td>
+        </tr>
+        <!-- file upload -->
+        <tr>
+            <td>file upload</td>
+            <td><input type="file"></td>
+        </tr>
+    
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+ </fieldset>
 </form>
-</table>
+
 </body>
 </html>
