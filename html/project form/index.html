@@ -7,7 +7,50 @@
 </head>
 <body>
     <form action="">
-        legend
+       <fieldset>
+        <legend>Personal Detail</legend>
+        <table>
+            
+            <tr>
+                <td ><label for="First Name">First Name :</label></td>
+                <td><input type="text" name="First Name" id="First Name" placeholder="FirstName Here.Ex- (Ronit)"></td>
+        
+          
+            <tr>
+                <td><label for="Last Name">Last Name :</label></td>
+                <td><input type="text" name="Last Name" id="Last Name" placeholder="LastName Here Ex-(Suman)" ></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Gender">Gender :</label></td>
+                <td>
+                    <input type="radio" name="Gender" id="Gender">Male
+                    <input type="radio" name="Gender" id="Gender">Female
+                    <input type="radio" name="Gender" id="Gender">Others
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email :</label></td>
+                <td><input type="email" name="Email" id="Email" placeholder="Ex-thisthat@_mail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="Date of Birth">Date of Birth :</label></td>
+                <td>
+                    <input type="date" name="Date of Birth" id="Date of Birth">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Adress">Adress : </label>
+                </td>
+                <td>
+                    <textarea name="Adress" id="Adress" cols="25" rows="5"></textarea>
+                </td>
+            </tr>
+           
+            </table>
+            <button>Submit</button>
+       </fieldset>
     </form>
     
 </body>
