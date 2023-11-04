@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css</title>
     <style>
-        h2{
+        /* selector priority list :-
+        1. id is firstly preferred 
+        2. class is second priority
+        3.* universal selector priorty is last 
+            id > class > universal selector* */
+        .a{
             color: red;
+        }
+        #b{
+            color: blueviolet;
+        }
+        /* * used for all selectors  */
+        *{
+            /* after puttting important then the priorites list change */
+            color: chartreuse !important;
         }
     </style>
 </head>
@@ -14,14 +27,16 @@
     <!-- basically 3 types of selector are used:
     1.class - .
     2. id- #
-    3.universal Selector - * -->
-   <!-- asjksajdhaj -->
+    3.universal Selector - *  -- to select all-->
+   <!-- class can be used multiple -->
+    <h2 class="a">this is h2 tag</h2>
+    <!-- id cant be used multiple 
+        due to seo seting we have to use one id at a time
+    code quality is poor if we are using double id in it -->
+    <h2 id="b">this is h2 tag</h2>
     <h2>this is h2 tag</h2>
-    <!-- dsjkbdsfjdsjk -->
-    <h2>this is h2 tag</h2>
-    <h2>this is h2 tag</h2>
-    <h2>this is h2 tag</h2>
-    <h2>this is h2 tag</h2>
+    <h2 >this is h2 tag</h2>
+    <h2 class="a">this is h2 tag</h2>
     <h2>this is h2 tag</h2>
     <h2>this is h2 tag</h2>
     <h2>this is h2 tag</h2>
